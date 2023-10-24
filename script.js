@@ -32,3 +32,16 @@ ScrollTrigger.refresh();
 }
 
 loco()
+
+gsap.to("#page>video", {
+  scrollTrigger:{
+    trigger: '#page>video',
+    start: '3% top',
+    end: 'bottom top',
+    markers: true,
+    scroller: '#main'
+  },
+  onStart:()=>{
+    document.querySelector("#page>video").play()
+  }
+} )
