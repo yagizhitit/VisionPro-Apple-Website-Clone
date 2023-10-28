@@ -215,3 +215,35 @@ page>nav>h3 {
     color: #fff;
     font-weight: 400;
 }
+
+#page5 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+}
+
+#page5>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page5>h1 {
+    font-size: 4vw;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+#page5>h1:first-child {
+    bottom: 50%;
+}
+
+#page5>h1:nth-child(2) {
+    bottom: 0%;
+}

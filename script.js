@@ -106,3 +106,17 @@ var tl2 = gsap.timeline({
 tl2.to("#page4>h1", {
   top: '-50%'
 })
+
+var tl3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#page5',
+    start: 'top top',
+    scrub: 1,
+    scroller: '#main',
+    pin: true
+  }
+})
+
+tl3.to("#page5>h1", {
+  top: '-50%'
+})
