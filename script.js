@@ -131,6 +131,6 @@ var tl4 = gsap.timeline({
   }
 })
 
-tl4.to("#page6>h1", {
+tl4.to("#page6>#center-page6", {
   top: '-50%'
 })
