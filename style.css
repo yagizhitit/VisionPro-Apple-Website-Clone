@@ -556,4 +556,12 @@ page>nav>h3 {
     height: 90%;
     width: 95%;
     position: relative;
+    overflow: hidden;
 }
+
+#center-page17>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
