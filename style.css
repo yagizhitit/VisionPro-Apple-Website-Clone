@@ -565,3 +565,39 @@ page>nav>h3 {
     object-fit: cover;
 }
 
+#page18{
+    position: relative;
+    height: 140vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#page18>h2{
+    position: absolute;
+    width: 50%;
+    color: #434343c7;
+    font-weight: 500;
+    top: 0%;
+}
+#page18>h2>span{
+    color: #000;
+}
+#page18>img{
+    width: 60%;
+    position: absolute;
+    bottom: 0%;
+}
+#page18>button{
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: #ff823d;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
