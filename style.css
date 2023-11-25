@@ -601,3 +601,37 @@ page>nav>h3 {
     font-weight: 500;
     border: none;
 }
+
+#page19{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+#page19>h4{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+}
+#page19>h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 3vw;
+}
+#page19>p{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    color: #ffffff7c;
+    width: 50%;
+    text-align: center;
+}
+#page19>p>span{
+    color: #fff;
+}
