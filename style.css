@@ -647,3 +647,43 @@ page>nav>h3 {
     max-width: 100vw;
     max-height: 100vw;
 }
+
+#page21{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#page21>h5{
+    width: 35%;
+}
+
+#page22{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page22>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page22{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    bottom: 30%;
+    right: 15%;
+    color: #fff;
+}
+#center-page22>h1{
+    margin-bottom: 1.7vw;
+}
