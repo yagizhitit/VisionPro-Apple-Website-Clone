@@ -532,3 +532,18 @@ end: `80% top`,
 });
 }
 canvas1();
+
+var tl5 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#page23`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+
+
+tl5.to("#page23>#troff",{
+  opacity:0
+})
