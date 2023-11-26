@@ -562,3 +562,14 @@ var tl6 = gsap.timeline({
 tl6.to("#page24>#snroff",{
   opacity:0
 })
+
+gsap.to("#page25>img",{
+  scrollTrigger:{
+    trigger:`#page25>img`,
+    start:`top bottom`,
+    end:`bottom 60%`,
+    scrub:.5,
+    scroller:`#main`
+  },
+  opacity:1
+})
